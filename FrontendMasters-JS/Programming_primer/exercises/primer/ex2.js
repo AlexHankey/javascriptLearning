@@ -1,6 +1,6 @@
 // TODO: define addFavoriteGame(..) function
 function addFavoriteGame(gameName) {
-    if(!gameName.includes("Call")) {
+    if(!gameName.includes("Among")) {
         favoriteGames.push(gameName);
     }
 }
@@ -20,6 +20,7 @@ addFavoriteGame("The last of us");
 addFavoriteGame("God of War");
 addFavoriteGame("Neir Automata");
 addFavoriteGame("Battlefield");
+addFavoriteGame("Among Us");
 
 // TODO: print out favorite Game
 printFavoriteGames();
